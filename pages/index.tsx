@@ -23,10 +23,10 @@ const Home: NextPage = () => {
         </p>
         
         <div className={styles.products}>
-          <p class="text-7xl pb-10" >Our Products</p>
+          <p class="text-5xl pb-10" >Our Products</p>
           <Image src="/phi.png" alt="Nysm Logo" width={100} height={100} />
           <a href="https://twitter.com/phi_xyz">
-            <p class= "text-5xl pt-5 pb-3">Phi</p>
+            <p class= "text-4xl pt-5 pb-3">Phi</p>
           </a>
           <p class= "text-2xl">Metaverse based ENS Subdomain</p>
         </div>
