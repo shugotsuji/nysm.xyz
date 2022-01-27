@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
       <header className="flex justify-end p-8">
         <a href="https://twitter.com/nysm_xyz">
-          <Image src="/twitter.png" alt="Twitter Logo" b-10 width={35} height={30}/>
+          <Image src="/twitter.png" alt="Twitter Logo" b-10 width={35} height={35}/>
         </a>
       </header>
 
@@ -20,9 +20,11 @@ const Home: NextPage = () => {
         <a href="https://twitter.com/nysm_xyz">
           <p className= "text-7xl pb-3">Nysm</p>
         </a>
-        <p className= "text-2xl pt-10">
-          admin@nysm.xyz
-        </p>
+        <a href="mailto:admin@nysm.xyz">
+          <p className= "text-2xl pt-10 underline underline-offset-2">
+            admin@nysm.xyz
+          </p>
+        </a>
         
         <div className="min-h-screen px-4 flex flex-col justify-center items-center">
           <p className="text-5xl pb-10" >Products</p>
