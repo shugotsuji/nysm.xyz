@@ -20,9 +20,9 @@ const Home: NextPage = () => {
         <a href="https://twitter.com/nysm_xyz">
           <p className= "text-7xl pb-3">Nysm</p>
         </a>
-        <a href="mailto:admin@nysm.xyz">
+        <a href="mailto:shugo@nysm.xyz">
           <p className= "text-2xl pt-10 underline underline-offset-2">
-            admin@nysm.xyz
+            shugo@nysm.xyz
           </p>
         </a>
         
